@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+    font-size: 18px;
+}
+
+h2,ul{
+    background-color: maroon;
+
+}
+.site-title{
+
+    color: red;
+}
+#my-image{
+    box-shadow: 0px 0px 2px black;
+}
+ .list-style{
+     list-style-type: square;
+ }
+ li:nth-child(odd) {
+    background: blue;
+  }
+ 
+  a { 
+      text-decoration: underline;
+      background-color: lightblue;
+      border: 10px red;
+ }
+
+ a:link{
+    text-decoration: none;
+    
+  }
+  
+  a:hover{
+    background-color: yellow;
+  }
+  
