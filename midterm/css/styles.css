@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #aad4cf;
+}
+
+section {
+  padding: 0 10px 10px 10px;
+}
+
+.body-section {
+  margin: 0px 242px 10px 242px;
+  background-color: rgb(212, 232, 231);
+}
+
+.header h1 {
+  position: absolute;
+  left: 544px;
+  top: 135px;
+  color: white;
+}
+
+.header img {
+  width: 100%;
+}
+
+.menu {
+  text-align:center;
+}
+
+.menu h3 {
+  display: inline-block;
+  padding: 7px 100px;
+  border-left: 1px solid;
+
+}
+
+.menu h3:first-child {
+  border: none;
+}
+
+.life-starfish img {
+  height: 230px;
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.life-starfish .first-pra {
+  line-height: 15px !important;
+}
+
+form {
+  border: 1px solid;
+  padding: 20px;
+}
+
+.inputs .input,
+.inputs textarea {
+  width: 100%;
+}
+
+.submit {
+  margin-top: 12px;
+  background-color: unset;
+  padding: 7px;
+}
